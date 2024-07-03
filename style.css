@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: center;
+    padding: 20px; /* Внутренний отступ контейнера */
+}
+
+/* Main */
+
+.logo {
+    margin-top: 5px; /* Отступ сверху для логотипа */
+    text-align: center;
+}
+
+
+/* Вторые блюда */
+
+.products-items {
+    display: flex;
+    flex-wrap: wrap; /* Разрешить перенос на новую строку */
+    justify-content: space-between; /* Распределение пространства между элементами */
+}
+
+.product {
+    width: calc(25% - 20px); /* Ширина блока */
+    margin: 10px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s; /* Анимация при изменении свойства transform */
+    text-decoration: none;
+}
+.product:hover {
+    transform: scale(1.05); /* Увеличиваем блок при наведении */
+}
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+.product-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.product-weight {
+    color: gray;
+    margin-top: 5px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+}
+
+.product-detailed {
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.second-courses-item-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px; /* Закругление краев */
+    margin-top: 10px;
+}
+.history-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+.product-image {
+    flex: 1;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.product-image img {
+    width: 600px; 
+    height: auto;
+}
+
+.product_descrtiption {
+    flex: 1;
+}
+
+.product_descrtiption h1 {
+    margin-top: 0;
+}
+
+.product_descrtiption p {
+    margin-top: 10px;
+}
+
+.product img{
+    height: 60%;
+}
+
+.product a{
+    text-decoration: none;
+}
